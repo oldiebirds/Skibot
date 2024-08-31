@@ -14,7 +14,7 @@ else:
 st.set_page_config(page_title="Skibot")
 
 st.title("Skibot, The Skibidiest AI ")
-st.subheader("Made by Aarush Kaushik")
+st.text("Made by Aarush Kaushik, Mehrauli, New Delhi, India")
 
 def get_gemini_response(question, chat):
     try:
